@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Takoyaki Org.</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">Takoyaki Org.</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="nav-items">
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="plan.html">Our Plan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="donate.html">Donate<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+  </div>
+  <form class="form-inline my-2 my-lg-0">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</nav>
+
+<div class="send-donation">
+<h2 class="text-center">Send Donation</h2>
+<p class="text-center">Everything Direct Relief does, every person whose life is saved or improved, stems from an act of generosity that's purely voluntary. You don't have to donate. That's why it's so extraordinary when you do.</p>
+<form>
+  <div class="form-group">
+    <div class="form-group">
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text">$</span>
+        </div>
+        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+        <div class="input-group-append">    
+          <span class="input-group-text">.00</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="form-group">
+        <label for="inputFirstName">First Name</label>
+        <input type="firstName" class="form-control" id="inputFirstName" aria-describedby="namelHelp" placeholder="Enter first name">
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="form-group">
+        <label for="inputLastName">Last Name</label>
+        <input type="lastName" class="form-control" id="inputLastName" aria-describedby="namelHelp" placeholder="Enter last name">
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+      <label for="inputAddress">Address</label>
+      <input type="address" class="form-control" id="inputAddress" aria-describedby="namelHelp" placeholder="Enter address">
+  </div>
+  <div class="form-group">
+      <label for="inputCity">City</label>
+      <input type="city" class="form-control" id="inputCity" aria-describedby="namelHelp" placeholder="Enter city">
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="form-group">
+          <label for="exampleInputCity">Province</label>
+          <select class="custom-select" id="inputProvince">
+          <option selected="">Province</option>
+          <option value="1">Abra</option>
+          <option value="2">Agusan del Norte</option>
+          <option value="3">Agusan del Sur</option>
+          <option value="4">Aklan</option>
+          <option value="5">Albay</option>
+          <option value="6">Bataan</option>
+          <option value="7">Benguet</option>
+          <option value="8">Cebu</option>
+          <option value="9">Ifugao</option>
+          <option value="10">La Union</option>
+          <option value="11">Masbate</option>
+          <option value="12">Mountain Province</option>
+          <option value="13">Quirino</option>
+          <option value="14">Rizal</option>
+          <option value="15">Sarangani</option>
+          </select>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="form-group">
+        <label for="inputZipCode">Zip Code</label>
+        <input type="zipCode" class="form-control" id="inputZipCode" aria-describedby="namelHelp" placeholder="Enter zip code">
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputEmail">Email</label>
+    <input type="email" class="form-control" id="inputEmail" aria-describedby="emaillHelp" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input" id="customCheck1" checked="">
+      <label class="custom-control-label" for="customCheck1">Receive (or continue to receive, if already subscribed) email updates</label>
+    </div>
+    <div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input" id="customCheck2" checked="">
+      <label class="custom-control-label" for="customCheck2">Cover the processing fee so that 100% of the donation goes to Direct Relief</label>
+    </div>
+  </div>
+</form>
+<button type="button" class="btn btn-primary">Send Donation</button>
+</div>
+</body>
+
+<footer>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="footer-links">
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Facebook<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Twitter</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Email</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pinterest</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+</nav>
+</footer>
+
+</html>
