@@ -1,0 +1,35 @@
+.nav-items{
+	margin:0 auto;
+}
+
+.navbar-brand{
+	padding-left: 70px;
+}
+.send-donation{
+	padding: 70px 190px;
+}
+
+.plan{
+	padding: 70px 190px;
+}
+.footer-links{
+	margin: auto;
+}
+
+.left-panel{
+	float: right;
+	max-width: 30rem; 
+	height: 12rem;
+
+}
+
+.right-panel{
+	float: left;
+	max-width: 30rem; 
+	height: 12rem;
+}
+
+.plan-panel{
+	padding-top: 40px;
+}
+
