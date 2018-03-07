@@ -120,13 +120,6 @@ body, html {
 
 }
 
-.navbar-nav{
-  padding-left: 100px;
-}
-
-.navbar-brand{
-  padding-left: 100px;
-}
 
 .nav{
   text-align: center;
@@ -147,9 +140,6 @@ body, html {
   padding-right: 50px;
 }
 
-.collapse{
-  padding-left:200px;
-}
 
 .card-title{
   text-align: center;
@@ -157,4 +147,8 @@ body, html {
 
 .card-text{
   text-align: justify;
+}
+
+.foot{
+  padding-left: 700px;
 }
