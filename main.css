@@ -1,9 +1,9 @@
 body{
-	text-align: center;
+  text-align: center;
 }
 
 .container-fluid {
-	padding: 60px 100px;
+  padding: 60px 100px;
 }
 
 .bg-grey {
@@ -12,7 +12,7 @@ body{
 
 /* Concact Form */
 .contact {
-	padding: 40px 150px;
+  padding: 40px 150px;
 }
 
 /* Footer */
@@ -106,55 +106,55 @@ body, html {
 }
 
 .display-3{
-	color:white;
-	font-weight:bold;
+  color:white;
+  font-weight:bold;
 }
 
 .lead{
-	font-size: 30px;
+  font-size: 30px;
 }
 
 .button{
-	padding-right: 50px;
-	padding-left: 40px;
+  padding-right: 50px;
+  padding-left: 40px;
 
 }
 
 .navbar-nav{
-	margin-left: 200px;
+  padding-left: 100px;
 }
 
 .navbar-brand{
-	margin-left: 200px;
+  padding-left: 100px;
 }
 
 .nav{
-	text-align: center;
+  text-align: center;
 }
 
 .row{
-	padding-left: 550px;
-	padding-right: 200px;
-	text-align: justify;
+  padding-left: 550px;
+  padding-right: 200px;
+  text-align: justify;
 }
 
 .breadcrumb{
-	margin-left: 550px;
-	font-size: 20px;
+  padding-left: 550px;
+  font-size: 20px;
 }
 
 .breadcrumb-item{
-	margin-right: 50px;
+  padding-right: 50px;
 }
 
 .collapse{
-	margin-left:600px;
+  padding-left:200px;
 }
 
 .card-title{
-	text-align: center;
+  text-align: center;
 }
 
 .card-text{
-	text-align: justify;
+  text-align: justify;
 }
